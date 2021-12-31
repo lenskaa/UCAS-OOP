@@ -13,7 +13,7 @@ public class WildBlackCard extends Card {
 	public WildBlackCard(String name, boolean faceup, Point position) {
 		super(name, faceup, position);
 		super.type = 0;
-		if (name.length() == '5') {
+		if (name.length() == 5) {
 			this.func = 0;// wild
 		} else {
 			this.func = 1;// wild4
